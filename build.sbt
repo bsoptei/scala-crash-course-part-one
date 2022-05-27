@@ -7,6 +7,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-crash-course-part-one",
     libraryDependencies ++= Seq(
-      scalaTest % Test
+      "org.scalatest" %% "scalatest" % "3.2.12" % "test"
     )
   )
